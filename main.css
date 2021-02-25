@@ -1,5 +1,5 @@
-body{
-  background-color:whitesmoke;
+body {
+  background-color: lightblue;
 }
 .main {
   text-align: center;
@@ -7,7 +7,20 @@ body{
 }
 
 .title {
-  margin-top: 120px;
+  margin: 120px 0 100px 0;
   text-transform: capitalize;
   font-style: italic;
+}
+.form {
+  background-color: gray;
+  width: 60%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.label-space {
+  margin-bottom: 10px;
 }
