@@ -1,9 +1,16 @@
+*{
+  margin:0; padding:0;
+}
+  
 body {
   background-color: lightblue;
 }
+
 .main {
   text-align: center;
   height: 100vh;
+  max-width: 720px;
+  margin: auto;
 }
 
 .title {
@@ -11,16 +18,53 @@ body {
   text-transform: capitalize;
   font-style: italic;
 }
+
 .form {
   background-color: gray;
-  width: 60%;
+  padding: 2.5em;
   margin: auto;
   border: 2px solid black;
   border-radius: 5px;
-  padding: 10px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: left;
 }
+
+.form-control{
+  width: 70%;
+  border-radius: 0.25em;
+  line-height: 1.2;
+  border: none;
+  padding: 10px;
+  /* background-color: inherit; */
+}
+
 .label-space {
   margin-bottom: 10px;
 }
+
+.label-space label {
+  margin-bottom: 5px;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+#survey-form input {
+  margin-top: 5px;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+button{
+  background-color: blue;
+  width: 100%;
+  border: none;
+  padding: 16px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
